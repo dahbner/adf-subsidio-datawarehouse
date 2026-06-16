@@ -1,0 +1,10 @@
+{
+	"name": "adf-ucb-dw-subsidio-764722",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralus"
+}
