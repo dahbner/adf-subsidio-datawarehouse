@@ -1,0 +1,22 @@
+{
+	"name": "df_bronze_bja_inscripciones",
+	"properties": {
+		"folder": {
+			"name": "bronze"
+		},
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"name": "csvBjaControlesPediatricos"
+				}
+			],
+			"sinks": [],
+			"transformations": [],
+			"scriptLines": [
+				"source(allowSchemaDrift: true,",
+				"     validateSchema: false) ~> csvBjaControlesPediatricos"
+			]
+		}
+	}
+}
