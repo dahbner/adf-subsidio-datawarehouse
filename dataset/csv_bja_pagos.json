@@ -23,43 +23,35 @@
 		},
 		"schema": [
 			{
-				"name": "control_pediatrico_id",
+				"name": "pago_id",
 				"type": "String"
 			},
 			{
-				"name": "ci_nino",
+				"name": "ci_beneficiaria",
 				"type": "String"
 			},
 			{
-				"name": "ci_madre",
+				"name": "concepto_pago",
 				"type": "String"
 			},
 			{
-				"name": "establecimiento_id",
+				"name": "monto_bs",
 				"type": "String"
 			},
 			{
-				"name": "nro_control",
+				"name": "fecha_pago",
 				"type": "String"
 			},
 			{
-				"name": "fecha_control",
+				"name": "estado_pago",
 				"type": "String"
 			},
 			{
-				"name": "peso_nino_kg",
+				"name": "canal_pago",
 				"type": "String"
 			},
 			{
-				"name": "talla_nino_cm",
-				"type": "String"
-			},
-			{
-				"name": "vacuna_aplicada",
-				"type": "String"
-			},
-			{
-				"name": "resultado",
+				"name": "nro_comprobante",
 				"type": "String"
 			}
 		]

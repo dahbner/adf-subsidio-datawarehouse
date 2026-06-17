@@ -23,15 +23,15 @@
 		},
 		"schema": [
 			{
-				"name": "control_pediatrico_id",
+				"name": "entrega_id",
 				"type": "String"
 			},
 			{
-				"name": "ci_nino",
+				"name": "boleta_id",
 				"type": "String"
 			},
 			{
-				"name": "ci_madre",
+				"name": "ci_beneficiaria",
 				"type": "String"
 			},
 			{
@@ -39,27 +39,27 @@
 				"type": "String"
 			},
 			{
-				"name": "nro_control",
+				"name": "paquete_id",
 				"type": "String"
 			},
 			{
-				"name": "fecha_control",
+				"name": "paquete_nombre",
 				"type": "String"
 			},
 			{
-				"name": "peso_nino_kg",
+				"name": "fecha_entrega",
 				"type": "String"
 			},
 			{
-				"name": "talla_nino_cm",
+				"name": "lote_produccion",
 				"type": "String"
 			},
 			{
-				"name": "vacuna_aplicada",
+				"name": "peso_paquete_kg",
 				"type": "String"
 			},
 			{
-				"name": "resultado",
+				"name": "fecha_proxima_entrega",
 				"type": "String"
 			}
 		]

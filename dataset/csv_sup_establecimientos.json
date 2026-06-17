@@ -23,43 +23,39 @@
 		},
 		"schema": [
 			{
-				"name": "control_pediatrico_id",
-				"type": "String"
-			},
-			{
-				"name": "ci_nino",
-				"type": "String"
-			},
-			{
-				"name": "ci_madre",
-				"type": "String"
-			},
-			{
 				"name": "establecimiento_id",
 				"type": "String"
 			},
 			{
-				"name": "nro_control",
+				"name": "codigo_snis",
 				"type": "String"
 			},
 			{
-				"name": "fecha_control",
+				"name": "nombre",
 				"type": "String"
 			},
 			{
-				"name": "peso_nino_kg",
+				"name": "tipo",
 				"type": "String"
 			},
 			{
-				"name": "talla_nino_cm",
+				"name": "nivel_atencion",
 				"type": "String"
 			},
 			{
-				"name": "vacuna_aplicada",
+				"name": "municipio",
 				"type": "String"
 			},
 			{
-				"name": "resultado",
+				"name": "departamento",
+				"type": "String"
+			},
+			{
+				"name": "red_salud",
+				"type": "String"
+			},
+			{
+				"name": "estado",
 				"type": "String"
 			}
 		]

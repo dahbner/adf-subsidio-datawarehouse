@@ -23,11 +23,7 @@
 		},
 		"schema": [
 			{
-				"name": "control_pediatrico_id",
-				"type": "String"
-			},
-			{
-				"name": "ci_nino",
+				"name": "parto_id",
 				"type": "String"
 			},
 			{
@@ -35,31 +31,27 @@
 				"type": "String"
 			},
 			{
+				"name": "ci_recien_nacido",
+				"type": "String"
+			},
+			{
 				"name": "establecimiento_id",
 				"type": "String"
 			},
 			{
-				"name": "nro_control",
+				"name": "fecha_parto",
 				"type": "String"
 			},
 			{
-				"name": "fecha_control",
+				"name": "tipo_parto",
 				"type": "String"
 			},
 			{
-				"name": "peso_nino_kg",
+				"name": "peso_nacimiento_kg",
 				"type": "String"
 			},
 			{
-				"name": "talla_nino_cm",
-				"type": "String"
-			},
-			{
-				"name": "vacuna_aplicada",
-				"type": "String"
-			},
-			{
-				"name": "resultado",
+				"name": "talla_nacimiento_cm",
 				"type": "String"
 			}
 		]
