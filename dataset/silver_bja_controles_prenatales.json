@@ -1,0 +1,68 @@
+{
+	"name": "silver_bja_controles_prenatales",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_destino_sql",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "silver"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "control_prenatal_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "ci_beneficiaria",
+				"type": "varchar"
+			},
+			{
+				"name": "establecimiento_id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "nro_control",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "fecha_control",
+				"type": "date"
+			},
+			{
+				"name": "semana_gestacion",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "peso_madre_kg",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 2
+			},
+			{
+				"name": "presion_sistolica",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "presion_diastolica",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "resultado",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "silver",
+			"table": "bja_controles_prenatales"
+		}
+	}
+}
